@@ -132,6 +132,9 @@
   });
   
   function GetTelegramInitData() {
+
+    console.log("KEKW");
+    
     if (!window.Telegram || !window.Telegram.WebApp) {
       console.error('Telegram WebApp is not initialized');
       return JSON.stringify({
