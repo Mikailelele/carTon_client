@@ -53,11 +53,11 @@ window.addEventListener("load", function ()
   }
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/webplayer.loader.js";
+  var loaderUrl = buildUrl + "/Build.loader.js";
   var config = {
-    dataUrl: buildUrl + "/webplayer.data.br",
-    frameworkUrl: buildUrl + "/webplayer.framework.js.br",
-    codeUrl: buildUrl + "/webplayer.wasm.br",
+    dataUrl: buildUrl + "/Build.data",
+    frameworkUrl: buildUrl + "/Build.framework.js",
+    codeUrl: buildUrl + "/Build.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "Unity_2D_Car.ton",

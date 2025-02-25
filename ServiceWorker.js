@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-Unity_2D_Car.ton-1.0";
 const contentToCache = [
-    "Build/webplayer.loader.js",
-    "Build/webplayer.framework.js.br",
-    "Build/webplayer.data.br",
-    "Build/webplayer.wasm.br",
+    "Build/Build.loader.js",
+    "Build/Build.framework.js",
+    "Build/Build.data",
+    "Build/Build.wasm",
     "TemplateData/style.css"
 
 ];
