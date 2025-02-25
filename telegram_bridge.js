@@ -3,6 +3,9 @@
 });
 
 function GetTelegramInitData() {
+
+    window.Telegram.WebApp.showAlert("GetTelegramInitData");
+
     if (!window.Telegram || !window.Telegram.WebApp) {
         console.error('Telegram WebApp is not initialized');
         return JSON.stringify({
@@ -11,14 +14,6 @@ function GetTelegramInitData() {
     }
 
     const webApp = window.Telegram.WebApp;
-
-    if (!webApp.initDataUnsafe || !webApp.initDataUnsafe.user) {
-        console.error('Not in Telegram WebApp or user data not available');
-        return JSON.stringify({
-            error: 'Not in Telegram WebApp'
-        });
-    }
-
     const user = webApp.initDataUnsafe.user;
 
     const telegramData = {
