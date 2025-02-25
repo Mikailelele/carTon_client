@@ -131,8 +131,6 @@ window.addEventListener('beforeunload', function () {
   unityInstanceRef.SendMessage('BrowserEventsHandler', 'OnBrowserQuitEvent');
 });
 
-});
-
 function GetTelegramInitData() {
   if (!window.Telegram || !window.Telegram.WebApp) {
     console.error('Telegram WebApp is not initialized');
