@@ -1,9 +1,11 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="CarTon.Defi.UI.ConnectWalletButton" preserve="all" />
+    <type fullname="CarTon.Defi.UI.UIWalletInfo" preserve="all" />
     <type fullname="CarTon.Lobby.LobbyManager" preserve="all" />
     <type fullname="CarTon.Scopes.MainMenuScope" preserve="all" />
     <type fullname="CarTon.UI.MenuSwitcher" preserve="all" />
+    <type fullname="CarTon.UI.RequestMenuMessageButton" preserve="all" />
     <type fullname="LobbyUI" preserve="all" />
     <type fullname="UICanvasGroupDecorator" preserve="all" />
     <type fullname="UIResetPositionOnAwake" preserve="all" />
@@ -58,6 +60,7 @@
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Rendering.SortingGroup" preserve="all" />
     <type fullname="UnityEngine.RenderSettings" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
