@@ -8,6 +8,7 @@
     <type fullname="CarTon.UI.Menu.WalletMenu" preserve="all" />
     <type fullname="CarTon.UI.MenuSwitcher" preserve="all" />
     <type fullname="CarTon.UI.RequestMenuMessageButton" preserve="all" />
+    <type fullname="CarTon.UI.UITelegramUserInfo" preserve="all" />
     <type fullname="LobbyUI" preserve="all" />
     <type fullname="UICanvasGroupDecorator" preserve="all" />
     <type fullname="UIResetPositionOnAwake" preserve="all" />
