@@ -1,7 +1,7 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="CarTon.Defi.UI.ConnectWalletButton" preserve="all" />
-    <type fullname="CarTon.Defi.UI.UIWalletInfo" preserve="all" />
+    <type fullname="CarTon.DeFi.UI.ConnectWalletButton" preserve="all" />
+    <type fullname="CarTon.DeFi.UI.UIWalletInfo" preserve="all" />
     <type fullname="CarTon.Lobby.LobbyManager" preserve="all" />
     <type fullname="CarTon.Scopes.MainMenuScope" preserve="all" />
     <type fullname="CarTon.UI.BaseMenu" preserve="all" />
